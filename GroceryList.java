@@ -1,8 +1,8 @@
-package com.company;
+package org.launchcode;
 
 import java.util.Scanner;
 
-public class Main {
+public class GroceryList {
 
     public static void main(String[] args) {
 
@@ -17,8 +17,9 @@ public class Main {
         float priceThree;
         float cost;
 
-
         Scanner keyboard = new Scanner(System.in);
+
+        System.out.println("Please list three items on your grocery shopping list.");
 
         System.out.println("Item 1?");
         itemOne = keyboard.nextLine();
@@ -55,9 +56,6 @@ public class Main {
 
         System.out.println("Calculating your total grocery bill.");
         System.out.println("Your total cost is " + cost);
-
-
-
 
     }
 }
